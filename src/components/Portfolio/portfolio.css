@@ -44,6 +44,9 @@
 .portfolio__item-content {
     height: 40%;
 }
+.portfolio-github-icon{
+    margin-left : 5px;
+}
 
 @media screen and (max-width: 1024px) {
     .portfolio__container {

@@ -2,6 +2,8 @@ import React from 'react';
 import IMG1 from "../../assets/schoolui.png";
 import Baydin from "../../assets/baydinpj.png";
 import "./portfolio.css";
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Portfolio = () => {
     const soloProjects = [
@@ -13,6 +15,7 @@ const Portfolio = () => {
                 "It is the website ui for school project",
             technologies: "HTML | CSS",
             link: "https://eduford-eta.vercel.app/",
+            githubLink: "https://github.com/KyawKyawHein/Eduford"
         },
         {
             id: 1,
@@ -22,6 +25,7 @@ const Portfolio = () => {
                 "Baydin project fetch with api",
             technologies: "React",
             link: "https://baydin-ten.vercel.app/",
+            githubLink: "https://github.com/KyawKyawHein/Baydin"
         }
     ];
 
@@ -49,6 +53,15 @@ const Portfolio = () => {
                                 rel="noreferrer"
                             >
                                 Live Demo
+                            </a>
+                            <a
+                                href={pro.githubLink}
+                                target="_blank"
+                                className="btn"
+                                rel="noreferrer"
+                            >
+                                Github
+                                <FontAwesomeIcon className='portfolio-github-icon' icon={faGithub} />
                             </a>
                         </div>
                     </article>
