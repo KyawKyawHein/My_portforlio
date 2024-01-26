@@ -1,6 +1,6 @@
 import React from 'react';
 import IMG1 from "../../assets/schoolui.png";
-
+import Baydin from ".../../assets/baydinpj.png";
 import "./portfolio.css";
 
 const Portfolio = () => {
@@ -14,7 +14,15 @@ const Portfolio = () => {
             technologies: "HTML | CSS",
             link: "https://eduford-eta.vercel.app/",
         },
-        
+        {
+            id: 1,
+            title: "Baydin",
+            img: Baydin,
+            description:
+                "Baydin project fetch with api",
+            technologies: "React",
+            link: "https://baydin-ten.vercel.app/",
+        }
     ];
 
     return (
