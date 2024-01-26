@@ -1,6 +1,6 @@
 import React from 'react';
 import IMG1 from "../../assets/schoolui.png";
-import Baydin from ".../../assets/baydinpj.png";
+import Baydin from "../../assets/baydinpj.png";
 import "./portfolio.css";
 
 const Portfolio = () => {
