@@ -24,7 +24,7 @@
 }
 
 .portfolio__item h3 {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .portfolio__item p {
@@ -42,10 +42,13 @@
 }
 
 .portfolio__item-content {
-    height: 40%;
+    height: 43%;
 }
 .portfolio-github-icon{
     margin-left : 5px;
+}
+.portfolio-features-title{
+    color : orange;
 }
 
 @media screen and (max-width: 1024px) {
