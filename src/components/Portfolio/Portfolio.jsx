@@ -1,11 +1,8 @@
 import React from 'react';
-import IMG1 from "../../assets/schoolui.png";
-import Baydin from "../../assets/baydinpj.png";
-import EcomLara from "../../assets/ecom_lara.png";
-import Survey from "../../assets/survey.png";
-import "./portfolio.css";
+import { Schoolui,Baydin,EcomLara,Survey,Autoverse,Chatgpt } from '../../assets/assets';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import "./portfolio.css";
 
 const Portfolio = () => {
     const soloProjects = [
@@ -31,6 +28,24 @@ const Portfolio = () => {
         },
         {
             id: 3,
+            title: "Autoverse",
+            img: Autoverse,
+            description:"Car project fetch with Rapid api",
+            technologies: "React",
+            link: "https://autoverse-gamma.vercel.app/",
+            githubLink: "https://github.com/KyawKyawHein/Car_pj_"
+        },
+        {
+            id: 4,
+            title: "Chat gpt3 clone ui",
+            img: Chatgpt,
+            description:"Chat gpt3 clone ui based on design",
+            technologies: "React",
+            link: "https://chatgpt3-ui.vercel.app/",
+            githubLink: "https://github.com/KyawKyawHein/Chatgpt3-clone-ui"
+        },
+        {
+            id: 5,
             title: "Baydin",
             img: Baydin,
             description:"Baydin project fetch with api",
@@ -39,9 +54,9 @@ const Portfolio = () => {
             githubLink: "https://github.com/KyawKyawHein/Baydin"
         },
         {
-            id: 3,
+            id: 6,
             title: "Eduford",
-            img: IMG1,
+            img: Schoolui,
             description:
                 "It is the website ui for school project",
             technologies: "HTML | CSS",

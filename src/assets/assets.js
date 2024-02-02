@@ -1,0 +1,11 @@
+export {default as Baydin} from "./baydinpj.png";
+export {default as BgTexture} from "./bg-texture.png";
+export {default as EcomLara} from "./ecom_lara.png";
+export {default as Linkedin} from "./linkedin.png";
+export {default as Me} from "./Me.jpg";
+export {default as PortfolioPreview} from "./Portfolio preview.png";
+export {default as Resume} from "./resume.pdf";
+export {default as Schoolui} from "./schoolui.png";
+export {default as Survey} from "./survey.png";
+export {default as Autoverse} from "./Autoverse.png";
+export {default as Chatgpt} from "./Chatgpt.png";
